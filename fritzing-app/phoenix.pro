@@ -183,6 +183,9 @@ include(pri/libgit2detect.pri)
 
 include(pri/boostdetect.pri)
 
+# For blinkboard
+include(pri/blinkboard.pri)
+
 include(pri/kitchensink.pri)
 include(pri/mainwindow.pri)
 include(pri/partsbinpalette.pri)
