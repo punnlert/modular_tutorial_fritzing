@@ -4,6 +4,7 @@
 BlinkBoardWidget::BlinkBoardWidget(QWidget *parent)
     : QScrollArea(parent), m_actionButton(new QPushButton(tr("Connect to BlinkBoard"))),
       m_mainLayout(new QVBoxLayout()), m_groupBox(new QGroupBox("")) {
+
   auto frame = new QFrame(this);
 
   m_mainLayout->setSizeConstraint(QLayout::SetMinAndMaxSize);
